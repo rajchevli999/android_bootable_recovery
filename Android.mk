@@ -45,6 +45,8 @@ ifeq ($(CM_PLATFORM_SDK_VERSION),)
     CM_PLATFORM_SDK_VERSION := 0
 endif
 
+TARGET_CRYPTFS_HW_PATH ?= vendor/qcom/opensource/cryptfs_hw
+
 include $(CLEAR_VARS)
 
 TWRES_PATH := /twres/
